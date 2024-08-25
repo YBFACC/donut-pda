@@ -1,0 +1,25 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.donut.插件 id">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <queries>
+
+
+        <intent>
+
+
+            <action android:name="android.intent.action.TTS_SERVICE"/>
+
+
+        </intent>
+
+
+    </queries>
+
+    <application >
+
+
+    </application>
+</manifest>

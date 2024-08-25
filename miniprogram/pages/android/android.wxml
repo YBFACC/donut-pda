@@ -1,0 +1,17 @@
+<!--pages/android/android.wxml-->
+<view class="container">
+
+<view class="quick-start-title">Android 插件快速开始</view>
+
+<view class="container quick-start-content">
+  <view wx:for="{{quickStartContents}}" class="quick-start-content-item">
+    <view>{{index+1}}.</view>
+    <view class="quick-start-content-item-text">{{item}}</view>
+  </view>
+</view>
+
+<button bindtap="onLoadPlugin" class="btn">点击加载多端插件</button>
+<button bindtap="onReadText" class="btn">读取文本</button>
+<button bindtap="onUnloadPlugin" class="btn">卸载监听</button>
+
+</view>
